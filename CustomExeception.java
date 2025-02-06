@@ -4,7 +4,7 @@ class InvalidInputException extends Exception {
     }
 }
 
-class Customexception {
+class CustomException {
     public static void validateNumber(int number) throws InvalidInputException {
         if (number < 0) {
             throw new InvalidInputException("Number must be non-negative");
