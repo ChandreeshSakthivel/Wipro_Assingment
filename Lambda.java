@@ -13,3 +13,4 @@ public class Lambda {
         strings.forEach(str -> System.out.println(toUpperCaseProcessor.process(str)));
     }
 }
+
